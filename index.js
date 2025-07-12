@@ -17,10 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin: [
-        'http://localhost:5173',
-        'https://jobsite-frontend-lyart.vercel.app'
-    ],
+    origin: 'https://jobportalapp-frontend.onrender.com',
     credentials: true
 }
 app.use(cors(corsOptions));
