@@ -19,6 +19,7 @@ app.use(cookieParser());
 const allowedOrigins = [
   "http://localhost:5173", // local dev
   "https://jobportalweb-frontend.onrender.com", 
+  "https://job-portal-web-iota.vercel.app"
 ];
 
 const corsOptions = {
